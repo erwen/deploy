@@ -1,0 +1,13 @@
+{
+	"apps": [{
+		"name": "deploy-demo",
+		"script": "src/app.js",
+		"watch": false,
+		"env": {
+			"NODE_ENV": "test",
+		},
+		"env_production": {
+			"NODE_ENV": "production"
+		}
+	}]
+}
